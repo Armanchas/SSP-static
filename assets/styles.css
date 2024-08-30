@@ -1,0 +1,161 @@
+body {
+	font-family: "Zen Kaku Gothic New";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+
+.navlink {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+nav {
+	background-color: #ff8d84;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+main {
+	padding-top: 150px;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(
+		180deg,
+		rgba(255, 214, 173, 0.75) 0%,
+		rgba(252, 149, 155, 0.5) 100%
+	);
+	padding-bottom: 100px;
+}
+
+.box-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 1200px;
+}
+
+.box-group {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.box {
+	padding: 5px 30px;
+	padding-bottom: 30px;
+	background-color: rgb(253, 182, 175);
+	border-radius: 25px;
+}
+
+h1 {
+	font-size: 40px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+h2 {
+	color: white;
+	font-size: 35px;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-bottom: 35px;
+}
+
+p {
+	color: white;
+	font-weight: 700;
+}
+
+.white-item {
+	color: white;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: normal;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input {
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: none;
+	padding: 5px 10px;
+}
+
+label {
+	color: white;
+	font-weight: 700;
+}
+
+button {
+	background-color: #ff8d84;
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: #f57d77;
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	gap: 10px;
+}
+
+.cell {
+	padding: 10px;
+	background-color: #ff8d84;
+	border-radius: 5px;
+}
+
+.cell a {
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.cell a:hover {
+	text-decoration: underline;
+}
